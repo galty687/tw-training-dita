@@ -1,0 +1,15 @@
+var keywords=[{w:"\u4EAE\u5EA6\u4ECB\u7ECD",p:["p0"]},{w:"\u4F7F\u7528hdmi\u8FDB\u884C\u8FDE\u63A5",p:["p1"]},{w:"Troublshooting",p:["p2"]},{w:"\u8FDE\u63A5VGA\u4FE1\u53F7\u6E90",p:["p3"]},{w:"\u624B\u52A8\u6821\u6B63\u7126\u8DDD",p:["p4"]},{w:"\u624B\u52A8\u8C03\u8282\u68AF\u5F62\u5931\u771F",p:["p5"]},{w:"\u5347\u8D77\u5E55\u5E03",p:["p6"]},{w:"\u6545\u969C\u6392\u9664\uFF1A\u6295\u5F71\u4EEA\u6253\u4E0D\u5F00",p:["p7"]},{w:"\u9065\u63A7\u5668\u5173\u95ED\u6295\u5F71\u4EEA",p:["p8"]},{w:"\u6253\u5F00\u6295\u5F71\u4EEA",p:["p9"]},{w:"\u6545\u969C\u6392\u9664",p:["p10"]},{w:"VGA\u7AEF\u53E3",p:["p11"]},{w:"\u4F7F\u7528VGA\u7AEF\u53E3\u8FDB\u884C\u8FDE\u63A5",p:["p12"]}];
+var ph={};
+ph["p0"]=[0];
+ph["p1"]=[1];
+ph["p2"]=[2];
+ph["p3"]=[3];
+ph["p4"]=[4];
+ph["p5"]=[5];
+ph["p6"]=[6];
+ph["p7"]=[7];
+ph["p8"]=[8];
+ph["p9"]=[9];
+ph["p10"]=[10];
+ph["p12"]=[12];
+ph["p11"]=[11];

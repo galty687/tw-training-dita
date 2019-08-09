@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="vga_connection" path="vga_connection.html"/>
+   <appContext helpID="Untitled" path="vga.html"/>
+   <appContext helpID="brightness" path="brightness.html"/>
+   <appContext helpID="open" path="open.html"/>
+   <appContext helpID="hdmi" path="hdmi.html"/>
+   <appContext helpID="adjust_focal_length"
+               path="homework/adjust_focal_length_manually.html"/>
+   <appContext helpID="task_pjc_hpd_r3b"
+               path="homework/adjust_trapezoidal_distortion_manually.html"/>
+   <appContext helpID="screen_up" path="homework/screen_up.html"/>
+   <appContext helpID="turn_off_projector_remoter"
+               path="homework/turn_off_projector_remoter.html"/>
+   <appContext helpID="VGA_Connecting" path="homework/VGA_Connecting.html"/>
+   <appContext helpID="troubleshooting" path="troubleshooting.html"/>
+   <appContext helpID="Troubleshooting" path="homework/Troubleshooting_no_signal.html"/>
+   <appContext helpID="start_projector_fail" path="homework/start_projector_fail.html"/>
+</map>

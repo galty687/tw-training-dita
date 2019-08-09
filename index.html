@@ -1,0 +1,250 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="en-us" lang="en-us">
+
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="wh-path2root" content="index.html" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script>
+            /**
+             * If an old URL is given, redirect to the corresponding topic from the WebHelp Responsive
+             */
+            var actualLocation = window.location.href;
+            var newLocation;
+            if (actualLocation.indexOf('/#')!=-1) {
+                newLocation = actualLocation.replace(/\/#/g, "/");
+                window.location.replace(newLocation);
+            }
+            if (actualLocation.match(/\/index\.(.*)#/gi)!=null) {
+                newLocation = actualLocation.replace(/\/index\.(.*)#/gi, "/");
+                window.location.replace(newLocation);
+            }
+            
+            function debug(msg, object){
+                console.log(msg, object);
+            }
+            function executeQuery(){
+                $('#searchForm').submit();
+                return true;
+            }
+        </script>
+        
+	    <link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/webhelp_responsive_topic.css?buildId=2017042020" />
+        
+        <!-- Latest compiled and minified Bootstrap CSS -->
+        <link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/bootstrap/css/bootstrap.min.css" />
+        
+        <!-- Bootstrap Optional theme -->
+        <link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/bootstrap/css/bootstrap-theme.min.css" />
+        
+        <link rel="stylesheet" href="oxygen-webhelp/resources/js/jquery-ui.min.css" />
+        
+        <!-- Changes and comments, as side-notes  -->
+        <link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/p-side-notes.css?buildId=2017042020" />
+        
+        <!-- Template default styles  -->
+        <link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/resources/css/wt_default.css?buildId=2017042020" />
+
+        
+        <script type="text/javascript" src="oxygen-webhelp/resources/js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="oxygen-webhelp/resources/localization/strings.js?buildId=2017042020"></script>
+        <script type="text/javascript" src="oxygen-webhelp/resources/js/localization.js?buildId=2017042020"></script>
+        <script type="text/javascript" src="oxygen-webhelp/resources/js/parseuri.js?buildId=2017042020"></script>
+        <script type="text/javascript" src="oxygen-webhelp/resources/js/jquery.cookie.js"></script>
+        
+        <script type="text/javascript" src="oxygen-webhelp/resources/js/jquery-ui.min.js"><!----></script>
+        
+        <script type="text/javascript" src="oxygen-webhelp/resources/js/jquery.highlight-3.js"></script>
+        <!-- Skin resources -->
+        <link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/variants/tiles/oxygen/skin.css?buildId=2017042020" />
+        <!-- EXM-36950 - Expand the args.hdf parameter here -->
+        
+        
+    <title>投影仪说明书</title></head>
+    <body class="wh_main_page">
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+<nav class="navbar navbar-default wh_header">
+    <div class="container">
+        <div class="wh_header_flex_container">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    <a href="index.html" class=" wh_logo hidden-xs "></a>
+                    <div class=" wh_publication_title "><a href="index.html"><span class="title">投影仪说明书</span></a></div>
+                    
+                </div>
+                <button type="button" data-target=".wh_top_menu_and_indexterms_link" data-toggle="collapse" class="navbar-toggle collapsed wh_toggle_button">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse">
+                
+                <div class=" wh_top_menu "><ul><li class=" has-children "><span class="topicref"><a href="vga_connection.html" data-id="vga_connection">使用VGA端口进行连接</a></span><ul><li><span class="topicref"><a href="vga.html" data-id="Untitled">VGA端口</a></span></li><li><span class="topicref"><a href="brightness.html" data-id="brightness">亮度介绍</a></span></li></ul></li><li class=" has-children "><span class="topicref"><a href="open.html" data-id="open">打开投影仪</a></span><ul><li><span class="topicref"><a href="hdmi.html" data-id="hdmi">使用hdmi进行连接</a></span></li></ul></li><li><span class="topicref"><a href="homework/adjust_focal_length_manually.html" data-id="adjust_focal_length">手动校正焦距</a></span></li><li><span class="topicref"><a href="homework/adjust_trapezoidal_distortion_manually.html" data-id="task_pjc_hpd_r3b">手动调节梯形失真</a></span></li><li><span class="topicref"><a href="homework/screen_up.html" data-id="screen_up">升起幕布</a></span></li><li><span class="topicref"><a href="homework/turn_off_projector_remoter.html" data-id="turn_off_projector_remoter">遥控器关闭投影仪</a></span></li><li><span class="topicref"><a href="homework/VGA_Connecting.html" data-id="VGA_Connecting">连接VGA信号源</a></span></li><li class=" has-children "><span class="topicref"><a href="troubleshooting.html" data-id="troubleshooting">故障排除</a></span><ul><li><span class="topicref"><a href="homework/Troubleshooting_no_signal.html" data-id="Troubleshooting">Troublshooting</a></span></li><li><span class="topicref"><a href="homework/start_projector_fail.html" data-id="start_projector_fail">故障排除：投影仪打不开</a></span></li></ul></li></ul></div>
+                
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+        <!-- Search form -->
+        <div class=" wh_search_input navbar-form wh_main_page_search " role="form">
+          
+          <div class="wh_welcome"></div>          
+          <form id="searchForm" method="get" action="search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" /><button type="submit" class="wh_search_button"><span>Search</span></button></div></form>
+          
+        </div>
+        <div class="wh_content_area ">
+            
+            <!-- This is the placeholder for the main page tiles. -->
+            <div class="container wh_content_flex_container">
+                <!-- This is the placeholder for the main page tiles. -->
+                <div class=" wh_tiles "><div class=" wh_tile  " data-id="vga_connection">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="vga_connection.html" data-id="vga_connection">使用VGA端口进行连接</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">
+</div>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="open">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="open.html" data-id="open">打开投影仪</a></span></div>
+
+                                
+                                
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="adjust_focal_length">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="homework/adjust_focal_length_manually.html" data-id="adjust_focal_length">手动校正焦距</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">手动校正投影图像的焦距。
+</div>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="task_pjc_hpd_r3b">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="homework/adjust_trapezoidal_distortion_manually.html" data-id="task_pjc_hpd_r3b">手动调节梯形失真</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">手动调节投影仪垂直和水平倾斜的角度。
+</div>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="screen_up">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="homework/screen_up.html" data-id="screen_up">升起幕布</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">* 仅部分包含幕布的投影设备需要此步。
+</div>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="turn_off_projector_remoter">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="homework/turn_off_projector_remoter.html" data-id="turn_off_projector_remoter">遥控器关闭投影仪</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">遥控器关闭投影仪
+</div>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="VGA_Connecting">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="homework/VGA_Connecting.html" data-id="VGA_Connecting">连接VGA信号源</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">如果笔记本电脑有VGA端口，办公室投影仪连接线是VGA端口
+</div>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="troubleshooting">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="troubleshooting.html" data-id="troubleshooting">故障排除</a></span></div>
+
+                                
+                                
+                            </div>
+                        </div>
+                    </div></div>
+                <!--
+                    This is the placeholder for the main page entries
+                    presented in a tree-like fashion.
+                -->
+                
+                
+            </div>
+        </div>
+        <nav class="navbar navbar-default wh_footer">
+  <div class=" footer-container text-center ">
+    Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank"> &lt;oXygen/&gt; XML WebHelp </a>
+  </div>
+</nav>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="oxygen-webhelp/resources/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="oxygen-webhelp/template/resources/js/wt_default.js?buildId=2017042020" type="text/javascript"></script>
+        
+        
+        
+        <!-- Search autocomplete -->
+        <script type="text/javascript" src="oxygen-webhelp/search/keywords.js?uniqueId=20190809045003"><!----></script>        
+        <script type="text/javascript" src="oxygen-webhelp/search/searchAutocomplete.js?buildId=2017042020"><!----></script>
+        <script type="text/javascript" src="oxygen-webhelp/search/searchHistoryItems.js?buildId=2017042020"><!----></script>
+        <script type="text/javascript" src="oxygen-webhelp/search/searchOptions.js?uniqueId=20190809045003"><!----></script>
+    </body>
+</html>
